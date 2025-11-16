@@ -4,30 +4,13 @@
 
 Este projeto é um PWA completo, integrado a uma API Node/Express, empacotado em um monorepo, com dockerização, suporte a testes e preparado para CI/CD.
 
-📦 Estrutura do Projeto
-entregaFinal/
-├── api/
-│   ├── Dockerfile
-│   ├── package.json
-│   └── src/
-│       └── index.js
-│
-├── apps/
-│   └── web/
-│       ├── Dockerfile
-│       ├── nginx.conf
-│       ├── package.json
-│       ├── vite.config.js
-│       ├── icons/
-│       ├── public/
-│       │   ├── manifest.webmanifest
-│       │   └── service-worker.js
-│       └── src/
-│
-├── docker-compose.yml
-├── LICENSE
-└── README.md
-📱 PWA (apps/web)
+
+/<img width="490" height="498" alt="image" src="https://github.com/user-attachments/assets/20e3430b-e35d-4bf5-8460-0debbd4fea81" />
+
+
+
+
+
 
 O frontend é um PWA criado com Vite + React, contendo:
 
@@ -46,13 +29,20 @@ Acessibilidade otimizada
 📁 Estrutura interna
 web/
 ├── icons/
+
 ├── public/
+
 │   ├── manifest.webmanifest
+
 │   └── service-worker.js
+
 └── src/
-    ├── App.jsx
-    ├── main.jsx
-    └── components/
+
+   ├── App.jsx
+    
+  ├── main.jsx
+    
+ └── components/
 🧠 API (api)
 
 API simples em Node/Express com rotas REST retornando JSON.
